@@ -8,7 +8,7 @@ from dominate.tags import title,div,a,h1,attr,link,p,h2
 from dominate import document
 
 #Dice job search
-position = input('Position?: ')
+position = input('Positions?: ')
 #position = 'Data Analyst'
 dice_url = 'https://www.dice.com/jobs?q=' + position + '&l=Miami%2C+FL'
 
