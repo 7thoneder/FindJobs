@@ -10,7 +10,7 @@ from dominate import document
 #Dice job search
 #position = input('Position?: ')
 position = 'DevOps'
-dice_url = 'https://www.dice.com/jobs?q=' + position
+dice_url = 'https://www.dice.com/jobs?q=' + position + '&countryCode=US&radius=30&radiusUnit=mi&page=1&pageSize=20&language=en'
 
 session = requests.Session()
 r = session.get(dice_url)
